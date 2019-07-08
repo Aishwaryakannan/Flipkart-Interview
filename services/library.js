@@ -41,7 +41,8 @@
         var changeTableAction = function(owner) {
             var actionCol = doc.querySelectorAll('.action');
             for (let i=0, len = actionCol.length; i<len; i++) {
-                actionCol[i].innerHTML = getStatus()
+                var current = actionCol[i]
+                actionCol[i].innerHTML = getStatus(current.data)
             }
 
         }
@@ -101,8 +102,6 @@
         
         return {
            addUser, addBook
-           //getCurrentUser
-            
         }
     })();
 
