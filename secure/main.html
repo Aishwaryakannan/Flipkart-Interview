@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <header class="login">
+            <label>Book Club</label>
+            <div id="user">
+                <input id="input" type="textarea"/>
+                <button>Submit</button>
+            </div>
+        </header>
+        
+       <section class="table">
+            <table>
+                    <tr>
+                      <th>Id</th>
+                      <th>Title</th>
+                      <th>Author</th>
+                      <th>Lendor</th>
+                      <th>Borrower</th>
+                      <th>Action</th>
+                    </tr>
+                    <tr id="newEntry">
+                        <td id="id"></td>
+                        <td><input id="title" type="text" placeholder="title"/></td>
+                        <td><input id="author" type="text" placeholder="author"/></td>
+                        <td id="owner"></td>
+                        <td class="action">NA</td>
+                        <td>
+                            <button id="addBook">Add Book</button>
+                        </td>
+                    </tr>
+            </table>
+       </section>
+        
+    </body>
+    
+    <script src="../services/library.js"></script>
+    <script src="../services/main.js"></script>
+    <script src="../services/validation.js"></script>
+    <link rel="stylesheet" href="../styles/main.css"/>
+    
+</html>

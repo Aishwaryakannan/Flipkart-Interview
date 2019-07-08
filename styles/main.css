@@ -1,0 +1,35 @@
+button {
+    width: 75px;
+    background: #2874f0;
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+}
+.login {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+    border-bottom: solid 1px #ccc;
+}
+.itemVal {
+    width:40%
+}
+
+input {
+    height: 20px;    
+}
+
+table {
+    display:none;
+    width:50%;
+    text-align: center;
+}
+
+section.table {
+    margin:3%
+}
+
+table,th, td {
+    border: solid 1px #ccc;
+    border-collapse: collapse;
+}
